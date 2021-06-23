@@ -1,0 +1,6 @@
+sources:
+  - name: MyGraphQLApi2
+    handler:
+      graphql:
+        useSSEForSubscription: true
+        endpoint: http://0.0.0.0:5000/graphql
